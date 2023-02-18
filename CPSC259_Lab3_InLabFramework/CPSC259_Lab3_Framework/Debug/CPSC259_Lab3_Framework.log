@@ -1,0 +1,3 @@
+﻿  linkedlist.c
+C:\Users\tauya\Downloads\CPSC259_Lab3_Framework\CPSC259_Lab3_Framework\linkedlist.c(349): warning C4715: 'remove_from_list': not all control paths return a value
+  CPSC259_Lab3_Framework.vcxproj -> C:\Users\tauya\Downloads\CPSC259_Lab3_Framework\Debug\CPSC259_Lab3_Framework.exe
