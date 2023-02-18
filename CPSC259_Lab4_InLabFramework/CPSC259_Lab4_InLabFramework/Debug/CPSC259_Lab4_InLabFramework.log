@@ -1,0 +1,6 @@
+﻿  main.c
+  recursion.c
+  Generating Code...
+\\Mac\Home\Downloads\CPSC259_Lab4_InLabFramework\CPSC259_Lab4_InLabFramework\recursion.c(101): warning C4716: 'draw_ramp': must return a value
+\\Mac\Home\Downloads\CPSC259_Lab4_InLabFramework\CPSC259_Lab4_InLabFramework\recursion.c(117): warning C4716: 'draw_row': must return a value
+  CPSC259_Lab4_InLabFramework.vcxproj -> \\Mac\Home\Downloads\CPSC259_Lab4_InLabFramework\Debug\CPSC259_Lab4_InLabFramework.exe
