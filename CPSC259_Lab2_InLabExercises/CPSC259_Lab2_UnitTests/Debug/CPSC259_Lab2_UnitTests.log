@@ -1,0 +1,6 @@
+﻿  unittest1.cpp
+\\Mac\Home\Downloads\CPSC259_Lab2_InLabExercises\CPSC259_Lab2_UnitTests\unittest1.cpp(114,25): warning C4566: character represented by universal-character-name '\u2500' cannot be represented in the current code page (1252)
+\\Mac\Home\Downloads\CPSC259_Lab2_InLabExercises\CPSC259_Lab2_UnitTests\unittest1.cpp(114,25): warning C4566: character represented by universal-character-name '\u2501' cannot be represented in the current code page (1252)
+\\Mac\Home\Downloads\CPSC259_Lab2_InLabExercises\CPSC259_Lab2_UnitTests\unittest1.cpp(115,25): warning C4566: character represented by universal-character-name '\u2501' cannot be represented in the current code page (1252)
+\\Mac\Home\Downloads\CPSC259_Lab2_InLabExercises\CPSC259_Lab2_UnitTests\unittest1.cpp(115,25): warning C4566: character represented by universal-character-name '\u2500' cannot be represented in the current code page (1252)
+  CPSC259_Lab2_UnitTests.vcxproj -> \\Mac\Home\Downloads\CPSC259_Lab2_InLabExercises\Debug\CPSC259_Lab2_UnitTests.dll
