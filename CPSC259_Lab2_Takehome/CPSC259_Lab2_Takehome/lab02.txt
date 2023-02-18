@@ -1,0 +1,47 @@
+   for (int k = 0; k < (candidate_length / sample_length) && (sample_length < (candidate_length - k*3)); k++) {
+
+         temp_score = 0;
+
+         for (int i = 0; i < sample_length_in_codons; i++) {
+
+             int nucleotides_count = 0;
+
+             if (strncmp(sample_segment, candidate_segment + (3 * k), i * 3 + 3) == 0) {
+                 temp_score += 10;
+             }
+             //check both segment exist in the list, each codon
+             else if ((get_codon_index(sample_segment) != -1) && (get_codon_index(candidate_segment + (3 * k)) != -1)) {
+
+                 if (strncmp(sample_segment, candidate_segment + (3 * k), 2 * (i + 1)) == 0)
+                     temp_score += 5;
+                 else {
+                     //compare each nucleotides
+                     for (int j = 0; j < 3; j++) {
+                         if (sample_segment[j + i * 3] == candidate_segment[j + i * 3 + (3 * k)]) {
+
+                             nucleotides_count++;
+
+                             if (nucleotides_count == 2) {
+                                 temp_score += 2;
+                                 nucleotides_count = 0;
+                             }
+              
+                         }
+                         else if (is_base_pair( sample_segment[j + i * 3], candidate_segment[j + i * 3 + (3 * k)] ) != 0)
+                             temp_score += 1;
+
+                         else
+                             temp_score += 0;
+                         
+                     }
+                 }
+
+             }
+
+         }
+
+
+         if (temp_score >= score)
+             score = temp_score;
+         // only stores the highest score
+     }

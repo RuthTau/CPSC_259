@@ -1,0 +1,5 @@
+Sample
+AAAGGG
+1
+Candidate 1
+CTCAAAGGGTAT
